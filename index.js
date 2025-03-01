@@ -18,7 +18,7 @@ const util = require('util');
 const { sms, downloadMediaMessage } = require('./lib/msg');
 const axios = require('axios');
 const { File } = require('megajs');
-const ownerNumber = ['94764570094'];
+const ownerNumber = ['94765718443'];
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -150,7 +150,7 @@ async function connectToWA() {
         
 //===================react===========
         
-if(senderNumber.includes("94764570094")){
+if(senderNumber.includes("94765718443")){
 if(isReact) return
 await m.react("🐱")
 }
